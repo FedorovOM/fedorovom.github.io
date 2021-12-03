@@ -1,0 +1,175 @@
+.home {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 10%;
+    height: auto;
+}
+
+.links {
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+.link {
+    text-decoration: none;
+    font-size: 10pt;
+}
+.link:hover {
+    text-decoration: underline 1px solid darkblue;
+}
+
+.google {
+    width: 300px;
+}
+
+.logo {
+    margin: 30px;
+}
+
+.title {
+    position: absolute;
+    margin: 83px 0 0 -63px;
+    color: #70757a;
+}
+
+.search {
+    font-size: 14px;
+    border-radius: 23px;
+    border: 1px solid lightgrey;
+    height: 44px;
+    padding: 0 20px 0 20px;
+    width: 450px;
+}
+.search:focus {
+    outline: none;
+}
+.search:hover {
+    box-shadow: 0px 4px 16px #ccc;
+}
+
+.button {
+    border-radius: 23px;
+    margin: 30px 0 0px 7px;
+    border: none;
+    height: 44px;
+    width: 130px;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: #f8f9fa;
+}
+
+.button:hover {
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 2px #ccc;
+    cursor: pointer;
+}
+
+.advanced {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.advanced_container {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: auto;
+}
+
+.mini_logo{
+    margin: 0 0 0 10px;
+}
+
+.mini_glogo {
+    height: 24px;
+    width: 74px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.advanced_title_1 {
+    color: #d93025;
+    font-weight: 100;
+    margin: 50px 0 0 30px;
+}
+
+.line {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 0 25px 0;
+}
+
+.advanced_title_2 {
+    display: inline-table;
+    width: 250px;
+    font-size: 20px;
+    color: #333;
+}
+
+.form_table {
+    margin: 50px 0 0 30px;
+}
+
+.advanced-str {
+    border: 1px solid lightgrey;
+    height: 28px;
+    padding: 0 20px 0 20px;
+    width: 450px;
+    margin: 15px 0 0 30px;
+}
+.advanced-str:hover{
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 2px #ccc;
+}
+
+.advanced-str:focus {
+    border: 1px solid lightgrey;
+    box-shadow: 0px 0px 2px #ccc;
+    outline: none;
+}
+
+.name {
+    display: inline-table;
+    width: 250px;
+    color: #333;
+}
+
+.help {
+    display: inline-table;
+    width: 250px;
+    font-size: 11px;
+    color: #555;
+
+}
+
+.advanced-search-btn {
+    display: block;
+    height: 78px;
+    padding-top: 10px;
+    border: none;
+    text-align: right;
+    width: 100%;
+}
+
+.advanced-search-btn input{
+    margin: 25px 0 0 0; 
+    color: white;
+    width: 160px;
+    height: 30px;
+    background-color: dodgerblue;
+    border-radius: 3px;
+    border: none;
+}
+.advanced-search-btn input:hover{
+    background-color: #1372DCFF;
+    cursor: pointer;
+}
+
+#footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 10px;
+    background: rgb(245,245,245);
+    color: #dadce0;
+    text-align: left;
+    width: 100%;
+}
